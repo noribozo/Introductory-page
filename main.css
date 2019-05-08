@@ -6,21 +6,29 @@
 }
 
 img{
-  width: 50px;
+  width: 15vw;
   height: auto;
-  border-radius: 50%;
+  border-radius: 15%;
   float: right;
-  
+}
+.navbar{
+  font-family: 'Yeon Sung', serif;
 }
 
 body{
   background: url('https://i.imgur.com/Ii0WozH.jpg') no-repeat center center fixed;
   background-size: cover;
-  color: #8b0000;
-  font-family: 'East Sea Dokdo', cursive;
-  font-size: 2rem;
+}
+
+.jumbotron{
+  background-color: hsla(240, 100%, 25%, 0.3);
+  margin: 7vw;
+  padding: 3vw;
   text-align: center;
-  
+  font-weight: bold;
+  font-size: 4rem;
+  color: hsla(240, 100%, 50%, 0.5);
+  font-family: 'Yeon Sung', serif;
 }
 
 ul, a{
@@ -34,12 +42,12 @@ a:hover{
 }
 
 .main{
-  font-family: "Indie Flower";
-  font-size: 1.5rem;
+  font-family: "Courgette", cursive;
+  font-size: 1rem;
   text-align: center;
   max-width: 60%;
   margin: 0 20% ;
-  color: #d90000;
+  color: hsla(300, 100%, 50%, 0.6);
   border-radius: 5%;
   box-shadow: hsla(0, 0%, 0%, .8) 1rem 1rem 8rem;
 }
@@ -52,6 +60,23 @@ a:hover{
 @media(min-width: 768px){
   .main {
     max-width: 50%;
-    font-size: 3rem;
+    font-size: 1rem;
   }
 }
+@media screen and (min-width: 1024px){
+  .jumbotron{
+    margin: 3vw;
+    padding:4vw;
+  }
+  .main{
+    font-size: 4rem;
+  }
+}
+
+
+
+
+
+
+
+
